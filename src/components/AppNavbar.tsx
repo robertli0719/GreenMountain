@@ -23,6 +23,15 @@ let template = (
                 <LinkContainer to="/about">
                     <NavItem eventKey={2}>About</NavItem>
                 </LinkContainer>
+                <LinkContainer to="/search">
+                    <NavItem eventKey={2}>Search</NavItem>
+                </LinkContainer>
+                <LinkContainer to="/app">
+                    <NavItem eventKey={2}>App</NavItem>
+                </LinkContainer>
+                <LinkContainer to="/work">
+                    <NavItem eventKey={2}>Work With Us</NavItem>
+                </LinkContainer>
             </Nav>
             <Nav pullRight>
                 <NavItem eventKey={1} href="#">Link</NavItem>
