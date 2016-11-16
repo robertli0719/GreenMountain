@@ -4,9 +4,71 @@ body{
     background-color: #000;
 }
 
-.navbar{
+.clear{
+    clear:both;
+}
 
-    .hello{
-        color: $ALERT_COLOR !important;
+.content_center{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content_bottom{
+    position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.navbar{
+    .container{
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        width:100%!important;
+    }
+}
+
+.full_page_slider{
+    
+    .big_picture{
+	    background-size: cover;
+	    height: 100vh;
+        -moz-opacity:0.7;opacity: 0.6;
+        -webkit-transition: background-image 0.5s; /* Safari */
+        transition: background-image 0.5s;
+    }
+
+    .banner{
+        font-size: 5em;
+        color:white;
+    }
+
+    .icon_button_toolbar{
+        @media (max-width: 767px) { 
+            width:40%;
+        }
+        @media (min-width: 767px) and (max-width: 992px) {
+            width:30%;
+        }
+        @media (min-width: 992px) and (max-width: 1200px) {
+            width:200px;
+        }
+        @media (min-width:1200px) { 
+            width:300px;
+        }                
+        margin:0 auto;
+        .item{
+            float:left;
+            width:33%;
+            border-bottom: 6px solid #333;
+        }
+        .item:hover, .item.active{
+            border-bottom: 6px solid #FFF;
+        }
     }
 }

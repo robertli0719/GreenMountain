@@ -8,7 +8,7 @@ import './base.scss';
 //so that we can't add collapseOnSelect on Navbar
 
 let template = (
-    <Navbar className="navbar" inverse /*collapseOnSelect*/>
+    <Navbar inverse >
         <Navbar.Header>
             <Navbar.Brand>
                 <a className="hello" href="#">Green Mountain</a>
