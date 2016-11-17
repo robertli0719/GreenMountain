@@ -1,7 +1,30 @@
 $ALERT_COLOR:red;
 
 body{
-    background-color: #000;
+    background-color: #FFF;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 52px;
+    line-height: 1.08654;
+    font-weight: 200;
+    letter-spacing: -0.014em;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+    font-style: normal;
+}
+
+a{
+    color: #08c;
 }
 
 .clear{
@@ -23,18 +46,31 @@ body{
 	transform: translate(-50%, -50%);
 }
 
+.top_space_20{
+    margin-top: 20px;
+}
+
+.top_space_40{
+    margin-top: 40px;
+}
+
+.top_space_60{
+    margin-top: 60px;
+}
+
 .navbar{
+    margin:0!important;
+    border-radius: 0px!important;
     .container{
         padding-right: 15px!important;
         padding-left: 15px!important;
-        margin-right: auto!important;
-        margin-left: auto!important;
+        margin:0 auto !important;
         width:100%!important;
     }
 }
 
 .full_page_slider{
-    
+    background-color: #000;
     .big_picture{
 	    background-size: cover;
 	    height: 100vh;
@@ -69,6 +105,24 @@ body{
         }
         .item:hover, .item.active{
             border-bottom: 6px solid #FFF;
+        }
+    }
+}
+
+.app_page{
+    .container{
+        padding: 50px 0;
+    }
+    .bgimg_banner{
+        background-size: cover;
+        height: 580px;
+
+        h1,h2,h3,h4,h5,h6,p{
+            color:#FFF;
+            text-align: center;
+        }
+        p{
+            font-size: 22px;
         }
     }
 }

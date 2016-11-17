@@ -7,7 +7,7 @@ let template = (
     </div>
 );
 
-export class About extends React.Component<{}, {}>{
+export class AboutPage extends React.Component<{}, {}>{
 
     num: number
 

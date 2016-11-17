@@ -3,7 +3,8 @@ import * as ReactDOM from "react-dom";
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { AppNavbar } from "./components/AppNavbar"
 import { Index } from "./pages/Index"
-import { About } from "./pages/About"
+import { AboutPage } from "./pages/AboutPage"
+import { AppPage } from "./pages/AppPage"
 import * as jQuery from "jquery";
 
 
@@ -30,7 +31,8 @@ let template = (
         <Route path="/" component={App}>
             <IndexRoute component={Index} />
             <Route path="/index" component={Index} />
-            <Route path="/about" component={About} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/app" component={AppPage} />
         </Route>
     </Router>
 );

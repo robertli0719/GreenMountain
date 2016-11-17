@@ -36,7 +36,7 @@ export class FullPageSlider extends React.Component<{}, FullPageSliderState>{
         super();
         this.btnItemArray = [
             { imgSrc: "img/index/icon-0-off.png", overImgSrc: "img/index/icon-0-on.png", bgImgSrc: "img/index/pic_0.jpg", to: "#", title: "Demo 1" },
-            { imgSrc: "img/index/icon-1-off.png", overImgSrc: "img/index/icon-1-on.png", bgImgSrc: "img/index/pic_1.jpg", to: "#", title: "Demo 2" },
+            { imgSrc: "img/index/icon-1-off.png", overImgSrc: "img/index/icon-1-on.png", bgImgSrc: "img/index/pic_1.jpg", to: "/app", title: "Demo 2" },
             { imgSrc: "img/index/icon-2-off.png", overImgSrc: "img/index/icon-2-on.png", bgImgSrc: "img/index/pic_2.jpg", to: "#", title: "Demo 3" }
         ];
         this.state = {
