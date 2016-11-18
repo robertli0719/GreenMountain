@@ -4,11 +4,8 @@ import { Button, ButtonToolbar, Navbar, Nav, NavItem, NavbarProps } from "react-
 import { LinkContainer } from 'react-router-bootstrap';
 import './base.scss';
 
-//There is a bug in @types/react-bootstrap": "0.0.35",
-//so that we can't add collapseOnSelect on Navbar
-
 let template = (
-    <Navbar inverse >
+    <Navbar inverse collapseOnSelect>
         <Navbar.Header>
             <Navbar.Brand>
                 <a className="hello" href="#">Green Mountain</a>

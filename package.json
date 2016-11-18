@@ -21,7 +21,7 @@
     "@types/history": "^2.0.39",
     "@types/jquery": "^2.0.34",
     "@types/react": "^0.14.44",
-    "@types/react-bootstrap": "0.0.35",
+    "@types/react-bootstrap": "0.0.36",
     "@types/react-dom": "^0.14.18",
     "@types/react-router": "^2.0.38",
     "@types/react-router-bootstrap": "0.0.27",
